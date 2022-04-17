@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra Papel Tesoura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Game</h1>
+    </header>
+
+    <section>
+        <div class="division1">
+            <p>1 - Stone</p>
+            <p>2 - Paper</p>
+            <p>3 - Scissors</p>
+
+            <p>Enter number above: </p>
+            <input type="number" name="num" id="num">
+            <input type="button" value="Play" onclick="play()">
+        </div>
+
+        <div id="geral">
+            <div class="divisao2" id="resultado"></div>
+            <div class="divisao4" id="resultado2"></div>
+        </div>
+
+        <div class="winner" id="winner"></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

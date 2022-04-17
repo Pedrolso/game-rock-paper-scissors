@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(136, 136, 247);
+}
+header{
+    text-align: center;
+}
+
+.division1{
+    background-color:rgb(130, 194, 255);
+    margin: auto;
+    width: 50%;
+    font-size: 1.3em;
+    border-radius: 10px;
+
+}
+#geral{
+    width: 50%;
+    margin: auto;
+}
+.divisao2{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto ;
+    
+}
+.divisao4{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto ; 
+}
+.winner{
+    background-color: green;
+    font-size: 2em;
+    text-align: center;
+}
