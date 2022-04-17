@@ -29,7 +29,7 @@ header{
     margin-right: auto ; 
 }
 .winner{
-    background-color: green;
+    background-color:rgb(130, 194, 255);
     font-size: 2em;
     text-align: center;
 }
