@@ -35,7 +35,7 @@ function play() {
                 res1.innerHTML = '<img src="images/tesoura.png">'
                 res2.innerHTML = '<img src="images/pedra.png">'
             }
-            win.innerHTML = `YOU LOSE`
+            win.innerHTML = `YOU LOST`
 
         } else if (digito == 1 && AI == 3 || digito == 2 && AI == 1 || digito == 3 && AI == 2) {
             //Ganhou
@@ -49,7 +49,7 @@ function play() {
                 res1.innerHTML = '<img src="images/tesoura.png">'
                 res2.innerHTML = '<img src="images/papel.png">'
             }
-            win.innerHTML = `YOU WIN`
+            win.innerHTML = `YOU WON`
         }
     }
 }
